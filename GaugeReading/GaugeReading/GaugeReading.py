@@ -65,7 +65,7 @@ def lineLength(line):
     point2 = (x2, y2)
     return getDistance(point1, point2)
 
-def getCirlce(image):
+def getCircle(image):
     (height, width) = image.shape[:2]
     grayImage = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     edges = cv2.Canny(grayImage, 50, 150)
@@ -140,7 +140,7 @@ for angle in range(0, -360, -5):
 
     rotatedImage = rotateImage(image, angle)
 
-    circle, circleImage = getCirlce(rotatedImage);
+    circle, circleImage = getCircle(rotatedImage);
     mainLine = getLine(circleImage, 0.5)
     if(displayAllSteps):
         displayImage(rotatedImage)
