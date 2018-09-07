@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "GaugeReading", "GaugeReading\GaugeReading.pyproj", "{63A5217B-887F-4BDC-9E18-B67E63B8682F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63A5217B-887F-4BDC-9E18-B67E63B8682F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A5217B-887F-4BDC-9E18-B67E63B8682F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A09108C5-7360-44A3-B123-DD21AB1EA6CA}
+	EndGlobalSection
+EndGlobal
